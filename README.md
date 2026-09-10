@@ -43,11 +43,11 @@ cleaning formulas).
 
 ## Methodology
 
-1. **Collection** — Reviews and star ratings scraped from Google Maps listings for each hotel.
-2. **Cleaning** — Removed unusable rows, standardized text casing, translated non-English reviews, and resolved missing values. Full decision log in [`docs/data-quality-log.md`](docs/data-quality-log.md).
-3. **Categorization** — Each review tagged with a `Review Category` (Service, Food, Room, etc.) and a `Guest Perception` (Positive / Neutral / Negative).
-4. **Analysis** — Pivot tables and charts built in Excel to summarize sentiment distribution, category frequency, and per-hotel/per-factor average ratings.
-5. **Dashboard** — Interactive Excel dashboard with slicers for hotel and review category (screenshot above; live version in [`analysis/abuja-hotel-data-and-dashboard.xlsx`](analysis/abuja-hotel-data-and-dashboard.xlsx)).
+1. **Collection**: Reviews and star ratings scraped from Google Maps listings for each hotel.
+2. **Cleaning**: Removed unusable rows, standardized text casing, translated non-English reviews, and resolved missing values. Full decision log in [`docs/data-quality-log.md`](docs/data-quality-log.md).
+3. **Categorization**: Each review tagged with a `Review Category` (Service, Food, Room, etc.) and a `Guest Perception` (Positive / Neutral / Negative).
+4. **Analysis**: Pivot tables and charts built in Excel to summarize sentiment distribution, category frequency, and per-hotel/per-factor average ratings.
+5. **Dashboard**: Interactive Excel dashboard with slicers for hotel and review category (screenshot above; live version in [`analysis/abuja-hotel-data-and-dashboard.xlsx`](analysis/abuja-hotel-data-and-dashboard.xlsx)).
 
 ## Key findings
 
@@ -80,8 +80,8 @@ contains identifiable individuals.
 The analysis, code, and documentation in this repository are released under
 the [MIT License](LICENSE). The underlying review data originates from
 publicly posted Google Maps reviews and is included for research and
-portfolio purposes; it is not original work of this project's author.
+analysis.
 
 ## Author
 
-Prepared as a capstone data analysis project, June 2026.
+Laff-in
